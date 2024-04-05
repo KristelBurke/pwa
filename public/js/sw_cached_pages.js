@@ -1,9 +1,9 @@
 const cacheName = 'v1';
 
 const cacheAssets = [   
-    'index.html',
-    'about.html',
-    '/js/main.js'        
+    '../index.html',
+    '../about.html',
+    '..//js/main.js'        
 ]
 // Call Install Event
 self.addEventListener('install', (e) => {
@@ -20,7 +20,7 @@ self.addEventListener('install', (e) => {
     );
 });
 
-// Call Activate Event
+// Call Activate EventaddAll
 self.addEventListener('activate', (e) => {
     console.log('Service Worker: Activated');
     // Remove unwanted caches
