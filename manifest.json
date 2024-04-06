@@ -9,10 +9,10 @@
             "purpose": "any"
         },
         {
-            "src": "/logo2.png",
+            "src": "/logo.png",
             "type": "image/png",
             "sizes": "512x512",
-            "purpose": "maskable"
+            "purpose": "any"
         }
     ],
     "start_url": "/index.html",
